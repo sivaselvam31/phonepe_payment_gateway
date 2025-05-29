@@ -8,9 +8,6 @@ app.use(cors())
 app.use(express.json());
 
 const PORT = 8000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
 
 // PhonePe API constants
 const MERCHANT_BASE_URL = "https://api.phonepe.com/apis/pg/checkout/v2/pay";
