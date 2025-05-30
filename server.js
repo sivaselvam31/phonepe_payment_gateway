@@ -64,7 +64,7 @@ app.post('/create-order', async (req, res) => {
                 type: "PG_CHECKOUT",
                 message: "Payment message used for collect requests",
                 merchantUrls: {
-                    redirectUrl: "https://google.com"
+                    redirectUrl: ""
                 }
             }
         };
