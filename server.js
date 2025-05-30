@@ -64,7 +64,7 @@ app.post('/create-order', async (req, res) => {
                 type: "PG_CHECKOUT",
                 message: "Payment message used for collect requests",
                 merchantUrls: {
-                    redirectUrl: ""
+                    redirectUrl: "https://www.ddtechods.com/course.html"
                 }
             }
         };
